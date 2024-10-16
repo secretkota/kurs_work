@@ -16,7 +16,7 @@ const checkEmail = (email) => {
     return emailCheked.test(email)
 }
 
-// todo: сделать норм валидацию
+// сделать: сделать норм валидацию
 const checkPassword = (password) => {
     const passCheked = /[A-Za-z]/
     return passCheked.test(password)
